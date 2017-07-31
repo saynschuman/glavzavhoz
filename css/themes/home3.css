@@ -1,0 +1,178 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+@media (min-width: 991px) {
+  .widget-sliderlayer {
+    margin-left: 23%;
+  }
+  .rtl .widget-sliderlayer {
+    margin-right: 23%;
+    margin-left: inherit;
+  }
+
+  .header3 .widget-sliderlayer {
+    margin-left: 0;
+  }
+  .rtl .header3 .widget-sliderlayer {
+    margin-right: 0;
+    margin-left: inherit;
+  }
+
+  .widget-producttabs.tab-v4 .default.grid > li {
+    min-height: 420px;
+  }
+}
+
+/* правки верхнего лайтбокса*/
+#layer_cart,
+.fancybox-wrap[tabindex="-1"].fancybox-type-html,
+.fancybox-wrap[tabindex="-1"].fancybox-type-inline {
+    top: 0 !important;
+    left: 0!important;
+    position: fixed !important;
+    width: 100% !important;
+    text-align: center;
+}
+.layer_cart_overlay{
+	display: none!important
+}
+
+.layer_cart_product{
+	max-width: 1200px;
+    margin: auto;
+    position: absolute!important;
+    left: 0;
+    right: 0;
+}
+#layer_cart .layer_cart_product .layer_cart_product_info{
+	text-align: left;
+}
+.fancybox-skin{
+	border-left: none!important;
+	border-right: none!important;
+}
+html.fancybox-lock, 
+html.fancybox-lock body{
+	overflow: visible!important; 
+}
+.fancybox-margin {
+    margin-right: 0 !important;
+}
+.fancybox-item.fancybox-close{
+	/* right: 26vw!important; */
+}
+.ssa-searchblock-top{
+	padding: 0!important;
+	margin-top: 10px;
+	display: none;
+}
+.delivery_option_delay{
+	position: relative;
+}
+.delivery_option_delay:after {
+    content: '';
+    display: block;
+	width: 378px;
+	height: 85px;
+	position: absolute;
+	left: -96px;
+	top: -2px;
+}
+
+#layer_cart .crossseling .crossseling-content{
+	background: #fff;
+	margin-top: 64px;
+}
+/* 
+надо кнопку переместить в аутер и спозиционировать
+
+изменить в этих функциях type у лайтбокса и повесить все стили на 1, например, .fancybox-wrap.fancybox-type-top
+function addToCompare(productId) {
+add: function(idProduct, idCombination, addedFromProductPage, callerElement, quantity, whishlist) { 
+*/

@@ -1,0 +1,131 @@
+ /*Доставка и оплата*/
+.delivery-and-payment .h2 {
+	margin-bottom: 30px;
+}
+.delivery-and-payment .delivery-section {
+	margin-bottom: 40px;
+}
+.delivery-and-payment .delivery-section p,
+.delivery-and-payment .delivery-section ul {
+	font-size: 15px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	list-style-type: disc;
+}
+.delivery-and-payment .delivery-section ul {
+	margin-left: 15px;
+}
+.delivery-and-payment .delivery-section p span,
+.delivery-and-payment .delivery-section ul span {
+	font-weight: 700;
+}
+.delivery-and-payment .delivery-section .pict1:before,
+.delivery-and-payment .delivery-section .pict2:before,
+.goods-card .characteristics .pict1:before,
+.goods-card .characteristics .pict2:before,
+.goods-card #tab4 h4.pict1:before,
+.goods-card #tab4 h4.pict2:before {
+	content: '';
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../img/sprite.png) no-repeat;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+.delivery-and-payment .delivery-section .pict1:before,
+.goods-card .characteristics .pict1:before,
+.goods-card #tab4 h4.pict1:before {
+	background-position: 0 -1659px;
+}
+.delivery-and-payment .delivery-section .pict2:before,
+.goods-card .characteristics .pict2:before,
+.goods-card #tab4 h4.pict2:before {
+	background-position: 0 -1684px;
+}
+.delivery-and-payment .address-block {
+	margin-bottom: 50px;
+}
+.delivery-and-payment .delivery-section.pay {
+	width: 70%;
+}
+.delivery-and-payment .delivery-section.pay p {
+	font-size: 13px;
+}
+/*</Доставка и оплата*/
+/*Адреса и карта*/
+.address-block .items-wrap {
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 490px;
+}
+.address-block .title {
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	padding: 15px 0;
+	border-bottom: 1px solid #e4e4e4;
+}
+#address-block p {
+	margin-bottom: 0;
+}
+.address-block .item {
+	font-size: 13px;
+	line-height: 1.3;
+	padding: 15px 0;
+	border-bottom: 1px solid #e4e4e4;
+}
+.address-block .item .address-item,
+.order-registration .payment .payment-item,
+.modal .modal-item {
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin: 0 10px;
+}
+.order-registration .jq-radio.checked .jq-radio__div,
+.delivery-and-payment .jq-radio.checked .jq-radio__div,
+.order-registration .payment .jq-radio.checked .jq-radio__div,
+.modal .jq-radio.checked .jq-radio__div {
+	background: #005b99;
+}
+.address-block .item p:before {
+	content: '';
+	display: inline-block;
+	width: 24px;
+	height: 18px;
+	background: url(../img/sprite.png) no-repeat;
+	vertical-align: middle;
+	margin-left: -30px;
+	margin-right: 5px;
+}
+.address-block .item p.red-m,
+.address-block .item p.violet-m {
+	padding-left: 30px;
+}
+.address-block .item p.red-m:before {
+	background-position: 0 -1765px;
+}
+.address-block .item p.violet-m:before {
+	background-position: 0 -1783px;
+}
+.address-block .for-map {
+	padding-top: 45px;
+}
+/*</Адреса и карта*/
+/*- Контент -*/
+.margin-top {
+	margin-top: 200px !important;
+}
+.h2 {
+	font-size: 26px;
+	font-weight: 700;
+	color: #5e5e5e;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f1f1f1;
+}
+.h3 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}

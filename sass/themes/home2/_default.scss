@@ -1,0 +1,33 @@
+@import "theme_variables";
+
+.boxcarousel {
+	position: relative;
+	.carousel-controls {
+		position: absolute;
+		width: 100%;
+		top: 50%;
+		margin-top: -20px;
+	}
+	.carousel-control {
+		@include size(40px,40px);
+		line-height: 38px;
+		@include opacity(0);
+		&.left{
+		  left: -60px;
+		}
+		&.right{
+		  right: -60px;
+		}
+	}
+	&:hover {
+		.carousel-control {
+		  @include opacity(1);
+		  &.left{
+		    left: -20px;
+		  }
+		  &.right{
+		    right: -20px;
+		  }
+		}
+	}
+}

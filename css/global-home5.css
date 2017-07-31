@@ -1,0 +1,29 @@
+/* style Home2 */
+/* 
+	@charset "UTF-8";
+
+	@import "compass";
+	@import "compass/reset";
+	@import "themes/vars/home5";
+	@import "theme_variables";
+	@import "vars/bootstrap";
+	@import "bootstrap";
+	@import "font-awesome";
+
+	@import "themes/default/default";
+	@import "themes/default/font";
+	@import "themes/default/modules";
+	@import "app/base";
+	@import "themes/home5/layout";
+	@import "app/form";
+	@import "app/modules";
+	@import "app/animation";
+	@import "app/elements";
+	@import "themes/home5/header";
+	@import "app/product";
+	@import "app/block";
+	@import "themes/home5/menu";
+
+	@import "typo";
+	@import "prestashop-module";
+	@import "prestashop-pages"; */

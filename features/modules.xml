@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<modules>
+	<module>
+		<label>Theme Control Panel</label>
+		<name>ptsthemepanel</name>
+		<prefix>PTS_CP_</prefix>
+		<queries>1</queries>	
+		<table>
+			<table>ptsthemepanel</table>
+		</table>
+	</module>	
+	<module>
+		<label>Mega Menu</label>
+		<name>ptsmegamenu</name>
+		<prefix>PTS_MEGAMENU_</prefix>
+ 		<queries>1</queries>	
+ 		<tables>
+ 			<table>ptsmegamenu</table>
+ 			<table>ptsmegamenu_lang</table>	
+ 			<table>ptsmegamenu_shop</table>
+ 			<table>ptsmegamenu_widgets</table>
+ 		</tables>
+	</module>
+	<module>
+		<label>Pts Related Products Block</label>
+		<name>ptsblockrelatedproducts</name>
+		<prefix>pts_relate_pro_</prefix>
+		<queries>0</queries>	
+	</module>
+
+	<module>
+		<label>Categories block</label>
+		<name>blockcategories</name>
+		<prefix>BLOCK_CATEG_</prefix>
+		<queries>0</queries>
+	</module>
+	<module>
+		<label>Top-sellers block</label>
+		<name>blockbestsellers</name>
+		<prefix>PS_BLOCK_BESTSELLERS_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>New products block</label>
+		<name>blocknewproducts</name>
+		<prefix>PS_BLOCK_NEWPRODUCTS_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>Specials block</label>
+		<name>blockspecials</name>
+		<prefix>BLOCKSPECIALS_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>CMS block</label>
+		<name>blockcms</name>
+		<prefix>FOOTER_</prefix>
+		<queries>0</queries>
+	</module>
+	<module>
+		<label>Pts Quick search block</label>
+		<name>ptsblocksearch</name>
+		<queries>0</queries>
+	</module>
+	<module>
+		<label>Leo Slider Layer for your homepage</label>
+		<name>leosliderlayer</name>
+		<prefix>LEOSLIDERLAYER_</prefix>
+		<queries>1</queries>
+		<tables>
+			<table>leosliderlayer_groups</table>
+			<table>leosliderlayer_slides</table>
+			<table>leosliderlayer_slides_lang</table>
+		</tables>
+	</module>
+
+	<module>
+		<label>Leo Blog Management</label>
+		<name>leoblog</name>
+		<prefix>LEOBLOG_</prefix>
+		<queries>1</queries>
+		<tables>
+			<table>leoblogcat</table>
+			<table>leoblogcat_lang</table>
+			<table>leoblogcat_shop</table>
+			<table>leoblog_comment</table>
+			<table>leoblog_blog</table>
+			<table>leoblog_blog_lang</table>
+			<table>leoblog_blog_shop</table>
+		</tables>
+		<imgfolder>views/img/b</imgfolder>
+			<images>
+	 			<image>b-blog-1.jpg</image>
+	 			<image>b-blog-2.jpg</image>
+	 			<image>b-blog-3.jpg</image>
+	 			<image>b-blog-4.jpg</image>
+	 			<image>b-blog-5.jpg</image>
+	 			<image>b-blog-6.jpg</image>
+	 			<image>b-blog-7.jpg</image>
+	 		</images>
+	</module>
+	
+	<module>
+		<label>Pts Map Locator</label>
+		<name>ptsmaplocator</name>
+		<prefix>PTSMAPL_</prefix>
+		<queries>0</queries>
+	</module>
+	<module>
+		<label>Pts Bootstrap Testimonials</label>
+		<name>ptsbttestimonials</name>
+		<prefix>pts_test</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>Pts Page Builder</label>
+		<name>ptspagebuilder</name>
+		<prefix>ptspagebuilder</prefix>
+		<queries>1</queries>
+		<tables>
+ 			<table>pagebuilderprofile</table>
+ 			<table>pagebuilderprofile_shop</table>
+ 		</tables>
+ 		<imgfolder>images</imgfolder>
+		<images>
+ 			<image>banner1.jpg</image>
+ 			<image>banner2.jpg</image>
+ 			<image>banner3.jpg</image>
+ 			<image>banner4.jpg</image>
+ 			<image>banner5.jpg</image>
+ 			<image>banner6.jpg</image>
+ 			<image>banner7.jpg</image>
+ 			<image>banner8.jpg</image>
+ 			<image>banner8.jpg</image>
+ 			<image>banner9.jpg</image>
+ 			<image>banner10.jpg</image>
+ 			<image>banner11.jpg</image>
+ 			<image>banner12.jpg</image>
+ 			<image>banner13.jpg</image>
+ 			<image>banner14.jpg</image>
+ 			<image>banner15.jpg</image>
+ 			<image>banner16.jpg</image>
+ 			<image>banner17.jpg</image>
+ 			<image>ficon-1.png</image>
+ 			<image>ficon-2.png</image>
+ 			<image>ficon-3.png</image>
+ 			<image>icon_pay.png</image>
+ 			<image>logo-footer.png</image>
+ 			<image>icon1.png</image>
+ 			<image>icon2.png</image>
+ 			<image>icon3.png</image>
+ 			<image>icon4.png</image>
+ 			<image>icon5.png</image>
+ 			<image>icon6.png</image>
+ 			<image>icon7.png</image>
+ 			<image>icon8.png</image>
+ 		</images>	
+	</module>
+	<module>
+		<label>Pts Vertical Megamenu</label>
+		<name>ptsverticalmenu</name>
+		<prefix>PTS_VERTICAL_MEGAMENU_</prefix>
+		<queries>1</queries>
+		<imgfolder>img</imgfolder>
+			<images>
+	 			<image>icon-1.png</image>
+	 			<image>icon-2.png</image>
+	 			<image>icon-3.png</image>
+	 			<image>icon-4.png</image>
+	 			<image>icon-5.png</image>
+	 			<image>icon-6.png</image>
+	 			<image>icon-7.png</image>
+	 			<image>icon-8.png</image>
+	 		</images>
+		<tables>
+ 			<table>ptsverticalmenu</table>
+ 			<table>ptsverticalmenu_lang</table>
+ 			<table>ptsverticalmenu_shop</table>
+ 			<table>ptsverticalmenu_widgets</table>
+ 		</tables>
+	</module>
+	<module>
+		<label>Contact block</label>
+		<name>blockcontact</name>
+		<prefix>BLOCKCONTACT__</prefix>
+		<queries>0</queries>
+	</module>
+</modules>

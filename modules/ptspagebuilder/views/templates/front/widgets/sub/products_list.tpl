@@ -1,0 +1,1 @@
+{include file="$tpl_dir./sub/products_module_list.tpl" product=$products class='' tabname=$tabname}

@@ -1,0 +1,99 @@
+@import "compass";
+@import "theme_variables";
+
+/* pts block top search */
+#pts_search_block_top {
+	background-color: #fff;
+	.pts-search {
+		background-color: #fff;
+		color: #aaa;
+		border: 0;
+		height: 45px;
+		@include box-shadow(0 0 5px #eee inset);
+	}
+	.button-search {
+		position: absolute;
+		@include rtl-right(0);
+		top: 0;
+		z-index: 10;
+		border: 0;
+		@include size(50px,45px);
+		background: #000;
+		color: #fff;
+		.icon {
+			font-size: 14px;
+			@include rtl-margin-right(5px);
+
+		}
+		&:hover {
+			background-color: $theme-color;
+			color: #fff;
+		}
+	}
+	.input-group {
+		width: 100%;
+		@include rtl-padding-right(50px);
+		@include box-shadow(inset 0 0 3px rgba(0,0,0,0.24));
+		@media (max-width: $screen-xs) {
+			@include rtl-padding-right(45px);
+		}
+	}
+	.input-group-btn {
+		position: relative;
+		color: #000;
+	}
+
+}
+#category_filter {
+	border: 0 none;
+    display: block;
+    font-size: 13px;
+    height: 41px;
+    line-height: 30px;
+    padding: 0 10px;
+	background-color: #f8f8f8;
+    margin: 2px 0;
+    @media(max-width: $screen-xs) {
+    	max-width: 130px;
+    }
+}
+
+#pts_search_query_top {
+	background-color: transparent;
+	@include box-shadow(none);
+	border: 0;
+	height: 45px;
+	font-size: $font-size-base - 2;
+	font-style: italic;
+	&:focus {
+		@include box-shadow(inherit);
+	}
+}
+
+.ac_results {
+	background: $light-background;
+	border: 1px solid $base-border-color;
+	width: 271px;
+	margin-top: -1px;
+	li {
+		padding: 10px;
+		font-weight: normal;
+		color: #686666;
+		font-size: 13px;
+		line-height: 22px;
+		border-top: 1px dotted $base-border-color;
+		&:first-child {
+			border-top: 0;
+		}
+		.name {
+			color: #000;
+			margin-bottom: 15px;
+		}
+		&.ac_odd {
+			background: $light-background;
+		}
+		&:hover, &.ac_over {
+			background: $base-box-bg;	
+		}
+	}
+}

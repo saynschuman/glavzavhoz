@@ -1,0 +1,51 @@
+/*Наши гарантии*/
+.our-garantees .h2 {
+	margin-bottom: 30px;
+	font-size: 26px;
+    font-weight: 700;
+    color: #5e5e5e;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.our-garantees .garantees-content {
+	color: #fff;
+	background: #005b99;
+	padding: 60px;
+	margin-bottom:70px;
+}
+.our-garantees .garantees-content .garantee-block {
+	margin-bottom: 100px;
+}
+.our-garantees .garantees-content .garantee-block:last-child {
+	margin-bottom: 0;
+}
+.our-garantees .garantees-content .garantee-pict {
+	width: 83px;
+	height: 68px;
+	background: url(../img/sprite.png) no-repeat;
+	margin-bottom: 45px;
+}
+.our-garantees .garantees-content .garantee-pict.pict1 {
+	background-position: 0 -1127px;
+}
+.our-garantees .garantees-content .garantee-pict.pict2 {
+	background-position: 0 -1195px;
+}
+.our-garantees .garantees-content .garantee-pict.pict3 {
+	background-position: 0 -1263px;
+}
+.our-garantees .garantees-content .garantee-pict.pict4 {
+	background-position: 0 -1331px;
+}
+.our-garantees .garantees-content h3 {
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 45px;
+	text-transform: uppercase;
+	color:#fff;
+}
+.our-garantees .garantees-content p {
+	font-size: 18px;
+	line-height: 1.2;
+}
+/*</Наши гарантии*/

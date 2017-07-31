@@ -1,0 +1,132 @@
+ 
+/* block */
+.#{$block-selector} {
+    margin-bottom: $block-module-margin-bottom;
+    position: relative;
+    .#{$block-heading-selector}{
+        position: relative;   
+        background:$block-module-heading-bg;                 
+        color: $block-module-heading-color;                                            
+        text-transform: $block-module-heading-transform;
+        font-family: $block-module-heading-font-family;    
+        font-size: $block-module-heading-font-size;
+        line-height: $block-module-heading-line-height;
+        letter-spacing: $block-heading-letter-spacing;
+        padding: $block-module-heading-padding;
+        font-weight:$block-module-heading-font-weight;
+        margin:0;
+    }
+    .#{$block-content-selector} {
+        @include clearfix();
+    }
+    .box-content {
+        border: 1px solid transparent;
+    }
+}
+.#{$block-selector}-borderbox {
+    background: #fff;
+    border-top: 3px solid $theme-color;
+    .#{$block-heading-selector} {
+        border-bottom: 1px solid $base-border-color;
+        color: $theme-color;
+        padding: 20px;
+        font-size: $block-module-heading-font-size;
+        line-height: 28px;
+        overflow: hidden;
+    }
+    .#{$block-content-selector} {
+        padding: 0;
+    }
+    &.highlighted {
+        background: transparent;
+        border: 2px solid $base-border-color;
+        .title_block {
+            border: 0;
+            span {
+                display: block;
+                position: relative;
+                &:before {
+                    @include element-absolute(inherit,-20px,0,left);
+                    @include size(100%,0);
+                    border-bottom: 1px solid $base-border-color;
+                }
+            }
+        }
+    }
+}
+
+
+.#{$block-prefix}-default {
+    @include block-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+    .#{$block-heading-selector}{
+        @include block-heading-variant( $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+    }
+}
+
+.#{$block-prefix}-primary {
+    @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+    .#{$block-heading-selector}{
+        @include block-heading-variant($panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+    }
+}
+
+.#{$block-prefix}-success {
+    @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+    .#{$block-heading-selector}{
+        @include block-heading-variant($panel-success-text, $panel-success-heading-bg, $panel-success-border);
+    }
+}
+
+.#{$block-prefix}-info {
+    @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+    .#{$block-heading-selector}{
+        @include block-heading-variant($panel-info-text, $panel-info-heading-bg, $panel-info-border);
+    }
+}
+
+.#{$block-prefix}-warning {
+    @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+    .#{$block-heading-selector}{
+        @include block-heading-variant($panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+    }
+}
+
+.#{$block-prefix}-danger {
+    @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+    .#{$block-heading-selector}{
+        @include block-heading-variant($panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+    }
+}
+.#{$block-prefix}-highlighted {
+    .#{$block-content-selector} {
+        background-color: $theme-color;
+        color: #fff; 
+    }
+}
+
+
+@each $kvp in $block-style { // kvp stands for 'key-value pair'
+    .#{$block-prefix}-#{nth($kvp, 1)} {
+        background-color: #fff;
+        .#{$block-heading-selector} {
+            border-top: 3px solid nth($kvp, 2);
+            border-bottom: 1px solid $base-border-color;
+            color: nth($kvp, 2);
+            padding: 20px;
+            font-size: $block-module-heading-font-size;
+            line-height: 28px;
+            overflow: hidden;
+            a {
+                color: nth($kvp, 2);
+            }
+        }
+        .tabs-heading {
+            border-top: 3px solid nth($kvp, 2);
+        }
+        &.tab-v4 .nav-tabs > li.active > a, 
+        &.tab-v4 .nav-tabs > li.active > a:hover, 
+        &.tab-v4 .nav-tabs > li.active > a:focus {
+            color: nth($kvp, 2);
+        }
+    }
+}

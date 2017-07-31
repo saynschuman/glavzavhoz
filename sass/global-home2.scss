@@ -1,0 +1,27 @@
+ // style Home2 
+
+	@charset "UTF-8";
+
+	@import "compass";
+	@import "compass/reset";
+	@import "themes/vars/home2";
+	@import "theme_variables";
+	@import "vars/bootstrap";
+	@import "bootstrap";
+	@import "font-awesome";
+	@import "app/base";
+	@import "app/block";
+	@import "themes/home2/layout";
+	@import "themes/default/default";
+	@import "app/modules";
+	@import "themes/home2/menu";
+	@import "app/product";
+	@import "app/form";
+	@import "themes/home2/animation";
+	@import "app/elements";
+	@import "themes/home2/header";
+
+	@import "typo";
+	@import "prestashop-module";
+	@import "prestashop-pages";
+   

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<BLOCKCONTACTINFOS_ADDRESS>No 1104 Sky Tower,  Newyork, USA</BLOCKCONTACTINFOS_ADDRESS>
+<BLOCKCONTACTINFOS_COMPANY>Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sosqu ad litora torquent per conubia </BLOCKCONTACTINFOS_COMPANY>
+<BLOCKCONTACTINFOS_EMAIL>sales@yourcompany.com</BLOCKCONTACTINFOS_EMAIL>
+<BLOCKCONTACTINFOS_PHONE>0123-456-789</BLOCKCONTACTINFOS_PHONE>
+<BLOCKCONTACT_EMAIL>contact@company.com</BLOCKCONTACT_EMAIL>
+<BLOCKCONTACT_TELNUMBER>0123-456-789</BLOCKCONTACT_TELNUMBER>
+</config>
+<queries></queries>
+
+</module>

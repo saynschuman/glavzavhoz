@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<PTS_VERTICAL_MEGAMENU_PARAMS>[{"id":2,"group":0,"cols":1,"subwidth":300,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"widgets":"wid-1438326267","colwidth":12,"colclass":""}]}]},{"id":3,"group":0,"cols":1,"subwidth":300,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"widgets":"wid-1438312813","colwidth":12}]}]},{"id":4,"group":0,"cols":1,"subwidth":300,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"widgets":"wid-1438326293","colwidth":12}]}]},{"id":5,"group":0,"cols":1,"subwidth":300,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"widgets":"wid-1438326319","colwidth":12}]}]},{"id":6,"group":0,"cols":1,"subwidth":600,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"widgets":"wid-1411954865","colwidth":6},{"widgets":"wid-1411954942","colwidth":6}]},{"cols":[{"widgets":"wid-1411955020","colwidth":6},{"widgets":"wid-1411955112","colwidth":6}]}]},{"id":7,"group":0,"cols":1,"subwidth":600,"submenu":1,"align":"aligned-left","rows":[{"cols":[{"widgets":"wid-1411954629","colwidth":12}]}]},{"submenu":1,"id":9,"subwidth":600,"group":0,"cols":1,"align":"aligned-left","rows":[{"cols":[{"widgets":"wid-1411955140","colwidth":12}]}]}]</PTS_VERTICAL_MEGAMENU_PARAMS>
+</config>
+<tables>
+<table>ptsverticalmenu</table>
+<table>ptsverticalmenu_lang</table>
+<table>ptsverticalmenu_shop</table>
+<table>ptsverticalmenu_widgets</table>
+</tables>
+
+<queries></queries>
+
+</module>

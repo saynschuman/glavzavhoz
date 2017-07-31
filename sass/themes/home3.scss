@@ -1,0 +1,20 @@
+
+	@import "theme_variables";
+	@import "vars/home3";
+
+	@media(min-width: $screen-sm-max) {
+		.widget-sliderlayer {
+			@include rtl-margin-left(23%);
+		}
+		.header3 {
+			.widget-sliderlayer {
+				@include rtl-margin-left(0);
+			}
+		}
+		.widget-producttabs.tab-v4 {
+			.default.grid > li {
+				min-height: 420px;
+			}
+
+		}
+	}

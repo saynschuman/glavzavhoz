@@ -1,0 +1,184 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* Variables icons for light style */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* testimonials-v4 */
+/* testimonials-v5 */
+/* testimonials-v6 */
+/* --- SCSS For Typography --- */
+@media only print {
+  #header .nav, #header .banner, #header .row > div {
+    display: none;
+  }
+  #header .row div#header_logo {
+    display: block;
+  }
+
+  #center_column {
+    width: 100% !important;
+  }
+
+  #left_column, #right_column {
+    display: none;
+  }
+
+  .no-print, #quantity_wanted_p > a, a.quick-view {
+    display: none !important;
+  }
+
+  div.selector, div.selector span, div.selector select {
+    background: none;
+  }
+
+  #thumbs_list li a:hover, #thumbs_list li a.shown {
+    border-color: #fff;
+  }
+
+  .product_attributes, .box-cart-bottom {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .pb-left-column #views_block {
+    margin-top: 10px;
+    width: 278px !important;
+  }
+
+  #thumbs_list_frame, #thumbs_list {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  #thumbs_list li, #thumbs_list li:first-child {
+    margin: 4px;
+    width: 82px;
+    height: 82px;
+  }
+
+  #view_scroll_left, #view_scroll_right, .view_scroll_spacer {
+    display: none !important;
+  }
+
+  .bx-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .bx-viewport {
+    height: auto !important;
+  }
+
+  #bxslider, #bxslider1, #crossselling_list_car {
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  #bxslider1 .product-box {
+    min-height: 200px;
+  }
+
+  .bx-controls-direction {
+    display: none;
+  }
+
+  #footer .row > div, #footer .row > section {
+    display: none;
+  }
+  #footer .row > div#block_contact_infos, #footer .row > section#block_contact_infos {
+    display: block;
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #515151;
+    padding-top: 20px;
+  }
+  .rtl #footer .row > div#block_contact_infos, .rtl #footer .row > section#block_contact_infos {
+    border-right: none;
+    border-left: inherit;
+  }
+
+  .footer-container #footer h4:after {
+    display: none;
+  }
+}

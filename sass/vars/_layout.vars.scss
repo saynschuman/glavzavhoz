@@ -1,0 +1,218 @@
+
+// Box Modules 
+// ========================================================================
+$block-module-margin-bottom: 			$grid-gutter-width !default;
+$block-module-padding  :				20px!default;
+$block-module-border-color: 			$border-box!default;
+
+$block-module-heading-border: 			rgba(0, 0, 0, 0.15) !default;
+$block-module-heading-transform:        uppercase !default;
+$block-module-heading-line-height:      22px !default;
+$block-module-heading-font-family:    	$font-headding-family !default;
+$block-module-heading-bg:				transparent !default;
+$block-module-heading-padding: 			10px 0 !default;
+$block-module-heading-font-size:		16px !default;
+$block-module-heading-font-weight:		400 !default;
+$block-module-heading-color:			#333 !default;
+
+$block-heading-icon-border:             solid 1px $theme-color !default;
+$block-heading-icon-bg:                 $nocolor !default;
+$block-heading-icon-font-size:          18px!default;
+$block-heading-icon-color:              $theme-color !default;
+
+$block-module-content-bg:				$white !default;
+$block-module-content-border:			1px solid $border-color !default;
+$block-module-content-padding:			0px !default;
+$block-module-content-margin:         	0px !default;
+$block-module-content-radius:         	0px !default;
+
+
+$block-module-highlighted-bg			    : #b8e3ea !default;
+$block-module-highlighted-heading-bg	    : #0ebed8 !default;
+$block-module-highlighted-heading-font-size : 16px!default;
+$block-module-highlighted-heading-font-weight: 300!default;
+
+$block-product-padding:               0 !default;
+$block-heading-letter-spacing:        0px !default;
+
+$block-subheading-color: #000;
+
+
+$heading-highlight-color:           $yellow	!default;			
+$heading-highlight-border:          #353535!default;	
+
+
+
+//blocktsyle
+
+$block-style: style1 #f44336,style2 #3f51b5,style3 #03a9f4,style4 #8bc34a,style5 #ffe033,style6 #ff9800,style7 #795548,style8 #009688;
+/*  
+ * LAYOUT VARIABLES 
+ */
+
+// Header
+// ========================================================================
+$header-bg:  						$theme-color !default;
+$header-margin:  				    0 !default;
+$header-padding:  				    0 !default;
+$header-icon-bg:                    $wild-sand !default;
+$header-border-color:               1px solid transparent !default;
+$header-heading-color:              $text-color !default;
+$header-text-color:                 #666666 !default;
+$header-link-color: 				$header-text-color !default;
+$header-icon-font-size:             $font-size-base + 4 !default;
+
+$header-logo-margin:  				0 !default;
+$header-logo-height:  				100px !default;
+$header-logo-width:  				240px !default;
+
+$header-style1-bg: 					#fff!default;
+$header-style2-bg: 					rgba($theme-color,0.7) !default;
+$header-style3-bg: 					#fff!default;
+// Topbar 
+// ========================================================================
+$topbar-bg: 						$theme-color !default;
+$topbar-color: 						#fff !default;
+$topbar-font-size: 					$font-size-base - 2 !default;
+$topbar-font-family:				$font-family !default;
+$topbar-font-weight:                400 !default;
+$topbar-link-color: 				$topbar-color !default;
+$topbar-link-hover-color: 			#000 !default;
+$color-icon-topbar: 				$text-color !default;
+$topbar-padding: 					8px 0 !default;
+$topbar-height:                     43px !default;
+$topbar-border:                     1px solid rgba(255,255,255,0.2) !default;
+
+$topbar-style1-bg: 							#ffffff !default;
+$topbar-style1-color: 						#bbb !default;
+$topbar-style1-font-size: 					$font-size-base - 2 !default;
+$topbar-style1-font-family:					$font-family !default;
+$topbar-style1-font-weight:                	400 !default;
+$topbar-style1-link-color: 					$topbar-style1-color !default;
+$topbar-style1-link-hover-color: 			$theme-color !default;
+$color-icon-topbar: 				        $text-color !default;
+$topbar-style1-padding: 					8px 0 !default;
+$topbar-style1-height:                     	43px !default;
+$topbar-style1-border:                     	1px solid #e5e5e5 !default;
+
+
+$topbar-style2-bg: 							rgba($theme-color,0.7) !default;
+$topbar-style2-color: 						#fff !default;
+$topbar-style2-font-size: 					$font-size-base - 2 !default;
+$topbar-style2-font-family:					$font-family !default;
+$topbar-style2-font-weight:                	400 !default;
+$topbar-style2-link-color: 					$topbar-style2-color !default;
+$topbar-style2-link-hover-color: 			#000 !default;
+$color-icon-topbar: 				        $text-color !default;
+$topbar-style2-padding: 					8px 0 !default;
+$topbar-style2-height:                     	43px !default;
+$topbar-style2-border:                     	1px solid rgba(255,255,255,0.2) !default;
+
+$topbar-style3-bg: 							#222222 !default;
+$topbar-style3-color: 						#fff !default;
+$topbar-style3-font-size: 					$font-size-base - 2 !default;
+$topbar-style3-font-family:					$font-family !default;
+$topbar-style3-font-weight:                400 !default;
+$topbar-style3-link-color: 					$topbar-style3-color !default;
+$topbar-style3-link-hover-color: 			$theme-color !default;
+$color-icon-topbar: 						$text-color !default;
+$topbar-style3-padding: 					8px 0 !default;
+$topbar-style3-height:                     43px !default;
+$topbar-style3-border:                     1px solid #e5e5e5 !default;
+
+// Main menu 
+
+$mainnav-bg: 						#fff !default;
+$mainnav-inner-bg:					#fff !default;
+$mainnav-color:                     #999!default;
+$mainnav-link-color:                #999!default;
+$mainnav-link-hover-color:          #fff!default;
+$mainnav-height:                    40px!default;
+
+
+$mainnav-style1-bg: 						$theme-color !default;
+$mainnav-style1-inner-bg:					$theme-color !default;
+
+$mainnav-style2-bg: 						$theme-color !default;
+$mainnav-style2-inner-bg:					$theme-color !default;
+
+$mainnav-style3-bg: 						#fff !default;
+$mainnav-style3-inner-bg:					#fff !default;
+
+// Promotions Top
+$promotiontop-bg: 						$white!default;
+
+//Main Content
+
+// Breadcrumb
+
+$breadcrumb-outside-bg:				transparent !default;
+// Bottom
+$bottom-bg: 						#fff!default;
+$bottom-padding:                    0;
+
+// Footer
+// ========================================================================
+
+$footer-bg: 						transparent !default;
+$footer-color: 						#888 !default;
+
+
+$footer-heading-font-family: 		$font-headding-family !default;
+$footer-heading-font-size: 			$font-size-base + 2 !default;
+$footer-heading-font-weight: 		400 !default;
+$footer-heading-color: 				#000 !default;
+$footer-heading-padding:            0 !default;
+
+$footer-link-color: 				#666 !default;
+$footer-link-hover-color: 			$theme-color !default;
+$footer-font-size:   	 			$font-size-base !default;
+     
+$footer-content-padding:            15px !default;
+$footer-content-margin:             0 !default;
+$footer-list-padding:               10px 0 !default;
+$footer-margin:                     20px !default;
+
+ /////// footer top
+$footer-top-outside-border:		    0 !default;
+$footer-top-outside-bg :			#222 !default;
+$footer-top-bg: 			 		transparent !default;
+$footer-top-color:					$white !default;
+$footer-top-content-padding:		0 !default;
+$footer-top-content-margin:		    0 !default;
+$footer-top-color-hover:			$theme-color !default;	
+$footer-top-border:					transparent !default;
+
+/////// footer center 
+$footer-center-outside-bg :			#ffffff !default;
+$footer-center-bg: 			 		#fff !default;
+$footer-center-content-padding:		0 !default;
+$footer-center-content-margin:		0 !default;
+$footer-center-color:				#666 !default;
+$footer-center-color-hover:			$footer-link-hover-color !default;	
+
+/////// footer bottom 
+$footer-bottom-outside-bg :			#fff !default;
+$footer-bottom-bg: 			 		#fff !default;
+$footer-bottom-content-padding:		40px 0 !default;
+$footer-bottom-content-margin:		0 !default;
+$footer-bottom-color:				$footer-link-color !default;
+$footer-bottom-color-hover:			$footer-link-hover-color!default;	
+
+// Powered By / Copyright
+// ========================================================================
+$power-outside-bg:       		#fff!default;
+$power-bg: 							#fff!default;
+$power-color:                       #888 !default;
+$power-link-color:                  $theme-color !default;
+$power-padding:                     40px 0 10px!default;
+$power-font-family  : 				$font-family!default;
+$power-border-color:				#ebebeb !default;
+
+ 
+// Responsive
+// ========================================================================
+$respon-topbar-icon:                $white !default;
+$respon-topbar-icon-font-size:      $font-size-base !default;
+$respon-topbar-search-bg:           $white !default;
+$respon-topbar-search-icon-color:   $black !default;

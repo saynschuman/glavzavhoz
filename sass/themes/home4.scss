@@ -1,0 +1,15 @@
+
+	@import "theme_variables";
+	@import "vars/home4";
+
+
+	#index #header {margin-bottom: 30px;}
+
+	.widget-banner {
+	  .widget-banner-desc {
+	    .sub-title {
+	    	color: $theme-color;
+	    	margin-top: 0;
+	    }
+	   }
+	}

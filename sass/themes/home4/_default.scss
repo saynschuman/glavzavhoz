@@ -1,0 +1,36 @@
+@import "theme_variables";
+
+.boxcarousel {
+	position: relative;
+	.carousel-controls {
+		position: absolute;
+		width: 60px;
+		top: -35px;
+		@include rtl-right(10px);
+	}
+	.carousel-control {
+		line-height: 38px;
+		@include opacity(1);
+		@include border-radius(0!important);
+		color: #e6e6e6;
+		background-color: transparent!important;
+		border: 0;
+		@include box-shadow(none);
+		&.left{
+		  left: 0;
+		}
+		&.right{
+		  right: 0;
+		}
+		&:hover {
+			color: $theme-color;
+			background-color: transparent;	
+		}
+		.icon-next::before {
+			content:"\f061"!important;
+		}
+		.icon-prev:before {
+			content:"\f060"!important;
+		}
+	}
+}

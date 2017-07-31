@@ -1,0 +1,345 @@
+/**
+ * HEADER CSS STYLES
+ */
+ /* default */
+.header-default {
+    .topbar  {
+        @include container-layout-variant( $topbar-color, $topbar-bg, $topbar-link-color, $topbar-link-hover-color ); 
+        border-bottom: $topbar-border;
+        .toogle_content li {
+            a {
+                color: #292733;
+            }
+            &.selected,
+            &:hover {
+                a {
+                    &,
+                    &:hover {
+                        color: $link-hover-color;
+                    }
+                }
+            }          
+        }
+    }
+    #header-main {
+        background: $header-bg;
+    }
+    .header-right {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .main-menu {
+        z-index: 90;
+    }
+    @media (min-width: $screen-sm-max) {
+        .#{$app-brand-prefix}-megamenu {
+            .navbar{
+                @include rtl-margin(0,0,0,-15px);
+            }
+            .megamenu > li {
+                @include rtl-border-left(1px solid $base-border-color);
+                &:last-child {
+                    @include rtl-border-right(1px solid $base-border-color);
+                }
+            }
+        }
+    }
+    ##{$app-brand-prefix}-mainnav {
+        background: $mainnav-bg;
+        @media (min-width: $screen-sm-max) {
+            .inner{
+                background-color: $mainnav-inner-bg;
+            }
+        }
+    }
+
+    #pts_search_block_top {
+        margin-top: 30px;
+    }
+    ##{$app-brand-prefix}-verticalmenu{
+        margin: 10px 0;
+    }
+    .btn-group {
+        .group-title {
+            text-transform: uppercase;
+            background-color: #2e3d8f;
+            padding: 0 15px;
+            .icon {
+                @include rtl-margin-left(10px);
+            }
+        }
+    }
+}
+
+ .header1 {
+    .topbar  {
+        @include container-layout-variant( $topbar-style1-color, $topbar-style1-bg, $topbar-style1-link-color, $topbar-style1-link-hover-color );
+        border-bottom: $topbar-style1-border; 
+    }
+    #header-main {
+        background: $header-style1-bg;
+    }
+    #logo-theme.logo-theme a {
+        background-image: url('#{$image-theme-base-path}data/logo-blue.png')
+    }
+    ##{$app-brand-prefix}-mainnav {
+        background: $mainnav-style1-bg;
+        margin-bottom: 0;
+        @media (min-width: $screen-sm-max) {
+            .inner{
+                background-color: $mainnav-style1-inner-bg;
+            }
+        }
+    }
+    #layer_cart {
+        top: 65px!important;
+    }
+    .#{$app-brand-prefix}-megamenu  {
+        @media (min-width: $screen-sm-max) {        
+            .megamenu {
+                > li:first-child a {
+                    @include rtl-padding-left(0!important);
+                }
+            }
+            .navbar {
+                margin: 15px 0;
+            }
+        }       
+    }
+    ##{$app-brand-prefix}-verticalmenu {
+        margin: 10px 0;
+        .title_block {
+            background-color: #222222;
+        }       
+    }
+
+    #pts_search_block_top {
+        margin-top: 10px;
+    }
+    .btn-group {
+        .group-title {
+            text-transform: uppercase;
+            background-color: #f5f5f5;
+            padding: 0 15px;
+            color: #bbb;
+            .icon {
+                @include rtl-margin-left(10px);
+            }
+        }
+    }
+}
+
+.header2 {
+    .topbar  {
+        @include container-layout-variant( $topbar-style2-color, $topbar-style2-bg, $topbar-style2-link-color, $topbar-style2-link-hover-color );
+        border-bottom: $topbar-style2-border;
+        .toogle_content li {
+            a {
+                color: #292733;
+            }
+            &.selected,
+            &:hover {
+                a {
+                    &,
+                    &:hover {
+                        color: $link-hover-color;
+                    }
+                }
+            }          
+        }
+    }
+    #header-main {
+        background: $header-style2-bg;
+    }
+    #logo-theme.logo-theme a {
+        background-image: url('#{$image-theme-base-path}data/logo-black.png');
+    }
+    .header-right {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    @media (min-width: $screen-sm-max) {
+        .#{$app-brand-prefix}-megamenu {
+            .navbar{
+                @include rtl-margin(0,0,0,-15px);
+            }
+            .megamenu > li > a {
+                &,
+                .menu-title {
+                    color: #fff;
+                }
+                &:focus,
+                &:hover {
+                    &,
+                    .menu-title {
+                        color: #000;
+                    }
+                }
+                .dropdown > a {
+
+                }
+            }
+
+            .megamenu > li.dropdown.open > a, 
+            .megamenu > li.dropdown:hover > a {
+                &,
+                .menu-title {
+                    color: #000;
+                }
+            }
+        }
+    }
+    ##{$app-brand-prefix}-mainnav {
+        background: $mainnav-style2-bg;
+        @media (min-width: $screen-sm-max) {
+            .inner{
+                background-color: $mainnav-style2-inner-bg;
+            }
+        }
+        .navbar{
+            .navbar-header {
+                .navbar-toggle {            
+                    border-color: #fff;
+                    .icon-bar {
+                        background-color: #fff;
+                    }
+                    &:hover {
+                        border-color: #000;
+                        .icon-bar {
+                            background-color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ##{$app-brand-prefix}-verticalmenu{
+        margin: 10px 0;
+    }
+    #pts_search_block_top {
+        margin-top: 30px;
+        @include rtl-float-right;
+        .search-focus {
+            @include size(45px,45px);
+            background-color: $theme-color;
+            color: #fff;
+            line-height: 42px;
+            text-align: center;
+            display: block;
+        }
+    }
+    #cart .mini-cart a:before {
+        background: url('#{$image-theme-base-path}data/cart-black.png') center center no-repeat;
+    }
+    #cart .mini-cart a {
+        color: #000;
+    }
+    #contact_block {
+        margin-top: 30px;
+        color: #666;
+        h5 {
+            color: #666;
+        }
+        li {
+            margin: 0 15px;
+        }
+        .contact-detail, a {
+            color: #000;
+            font-size: 13px;
+        }
+    }
+    .btn-group {
+        .group-title {
+            text-transform: uppercase;
+            background-color: $theme-color;
+            padding: 0 15px;
+            .icon {
+                @include rtl-margin-left(10px);
+            }
+        }
+    }
+}
+.header3 {
+    .topbar  {
+        @include container-layout-variant( $topbar-style3-color, $topbar-style3-bg, $topbar-style3-link-color, $topbar-style3-link-hover-color );
+        border-bottom: $topbar-style3-border;
+        .toogle_content li {
+            a {
+                color: #292733;
+            }
+            &.selected,
+            &:hover {
+                a {
+                    &,
+                    &:hover {
+                        color: $link-hover-color;
+                    }
+                }
+            }          
+        }
+    }
+    #header-main {
+        background: $header-style3-bg;
+    }
+    #logo-theme.logo-theme a {
+        background-image: url('#{$image-theme-base-path}data/logo-blue.png');
+    }
+    .header-right {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    @media (min-width: $screen-sm-max) {
+        .#{$app-brand-prefix}-megamenu {
+            .navbar{
+                @include rtl-margin(0,0,0,-15px);
+            }
+        }
+    }
+    ##{$app-brand-prefix}-mainnav {
+        background: $mainnav-style3-bg;
+        border-top: 1px solid $base-border-color;
+        @media (min-width: $screen-sm-max) {
+            .inner{
+                background-color: $mainnav-style3-inner-bg;
+            }
+        }
+
+    }
+    #pts-mini-cart {
+        border-color: $base-border-color;
+    }
+    #cart .mini-cart a:before {
+        background: url('#{$image-theme-base-path}data/cart-black.png') center center no-repeat;
+    }
+    #cart .mini-cart a {
+        color: #000;
+    }
+    #contact_block {
+        margin-top: 30px;
+        color: #bbb;
+        li {
+            margin: 0 15px;
+        }
+        h5 {
+            color: #bbb;
+        }
+        .contact-detail {
+            font-weight: 600;
+            color: #000;
+            font-size: 13px;
+        }
+    }
+    .btn-group {
+        .group-title {
+            text-transform: uppercase;
+            background-color: #353535;
+            padding: 0 15px;
+            .icon {
+                @include rtl-margin-left(10px);
+            }
+        }
+    }
+}
+#languages-block-top {
+    margin: 0 3px;
+}

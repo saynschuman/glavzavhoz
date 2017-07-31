@@ -1,0 +1,95 @@
+//@import "compass";
+@import "theme_variables";
+
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+
+
+
+h1#cart_title {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.content_scene_cat {
+	display: block;
+	background-color: #fff;
+	margin-bottom: 20px;
+	.cat_desc {
+		padding: 10px 20px 20px;
+	}
+	span.category-name {
+		font: 600 42px/51px $font-custom;
+		color: $light-text-color;	
+		margin-bottom: 12px;
+		@media  (max-width: $screen-md-max) { // max 1199px
+			font-size: 25px;
+			line-height: 30px;
+		}
+	}
+	p {
+		margin-bottom: 0;
+	}
+	a {
+		color: $light-text-color;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.content_scene {
+		color: $base-body-color;
+		.cat_desc {
+			padding-top: 20px;
+			a {
+				color: $link-color;
+				&:hover {
+					color: $link-hover-color;	
+				}
+			}
+		}
+	}
+}
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+
+#subcategories {
+	padding: 20px;
+	background-color: #fff;
+	display: block;
+	.subcategory-image {
+		display: none;
+	}
+	label {
+		text-transform: uppercase;
+		color: #000;
+		@include rtl-float-left;
+	}
+	ul {
+		@include rtl-float-left;
+		margin-bottom: 0;
+		li {
+			@include rtl-float-left;
+			margin: 0 10px;
+			position: relative;
+			&:before {
+				content: "";
+				display: inline-block;
+				@include size(3px,3px);
+				background-color: #000;
+				margin: 0 3px;
+			}
+		}
+	}
+	h5 {
+		font-weight: 300;
+		margin: 0;
+		display: inline;
+		a {
+			color: #666;
+		}
+
+	}
+}

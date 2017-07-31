@@ -1,0 +1,22 @@
+@import '../../_theme_variables';
+.tags_block {
+	
+	.block_content {
+		overflow:hidden;		
+		a {
+			display:inline-block;
+			font-size:13px;
+			line-height:16px;
+			padding:4px 9px 5px 9px;
+			border:1px solid $base-border-color;
+			color: $theme-color;
+			@include rtl-float-left();
+			@include rtl-margin(0, 7px, 7px, 0);
+			
+			&:hover {
+				color:$base-text-color;
+				background:#f6f6f6;
+			}
+		}
+	}
+}
