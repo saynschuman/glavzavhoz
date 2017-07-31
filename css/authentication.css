@@ -1,13 +1,13 @@
 /* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
 /**
- * Web Application Prefix Apply For Making Owner Styles
- */
+* Web Application Prefix Apply For Making Owner Styles
+*/
 /**
- *   Blocks Layout Selectors 
- */
+*   Blocks Layout Selectors 
+*/
 /**
- * Product Item Selectors
- */
+* Product Item Selectors
+*/
 /***********************************************************************/
 /* RIGHT TO LEFT */
 /* BACKGROUND GRADIENT */
@@ -28,8 +28,8 @@
 /**parallax**/
 /**absolute**/
 /*  
- * LAYOUT VARIABLES 
- */
+* LAYOUT VARIABLES 
+*/
 /** CHECKOUT BY STEP */
 /* --- SCSS For Accordion --- */
 /* --- SCSS For Breadcrumb --- */
@@ -88,7 +88,7 @@
 /* testimonials-v6 */
 /* --- SCSS For Typography --- */
 /**********************************************************
-				Authentication Styles
+Authentication Styles
 **********************************************************/
 #account-creation_form .id_state,
 #account-creation_form .dni,
@@ -133,9 +133,9 @@
 }
 
 .auth-wrapper {
-    width: 483px;
-    display: block;
-    margin: 30px auto;
+  width: 483px;
+  display: block;
+  margin: 30px auto;
 }
 
 #auth-tabs-header-wrapper {
@@ -159,6 +159,9 @@
   position: relative;
   z-index: 1;
   padding: 50px 30px 30px 30px;
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);  
 }
 
 #auth-tabs-header li a {
@@ -185,4 +188,156 @@
 
 .nav-justified > li, .nav-tabs.nav-justified > li {
   width: 215px;
+}
+
+.addui-input-container input {
+  width: 343px !important;
+  margin: auto !important;
+}
+
+div.addui-input-container div.addui-input-placeholder {
+  left: 40px !important;
+}
+
+div.addui-input-container input.addui-input-input, div.addui-input-container input.addui-input-input:focus {
+  padding-left: 0 !important;
+}
+
+#panel5 .addui-input-container:first-child::before {
+  content: "\f0e0";
+  position: absolute;
+  padding-right: 10px;
+  font-size: 25px;
+  font-family: FontAwesome;
+  color: #757575;
+  left: 0;
+  margin-top: 12px;
+}
+
+#panel5 .addui-input-container:nth-child(2)::before {
+  content: "\f023";
+  position: absolute;
+  padding-right: 10px;
+  font-size: 25px;
+  font-family: FontAwesome;
+  color: #757575;
+  left: 0;
+  margin-top: 12px;
+}
+
+#panel6 .addui-input-container:first-child::before {
+  content: "\f0e0";
+  position: absolute;
+  padding-right: 10px;
+  font-size: 25px;
+  font-family: FontAwesome;
+  color: #757575;
+  left: 0;
+  margin-top: 12px;  
+}
+
+.tab-content input[type="submit"] {
+  border-width: 0px;
+  width: 192px;
+  height: 43px;
+  background-color: rgba(0, 89, 154, 1);
+  border: none;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+  font-family: 'Roboto Medium', 'Roboto Regular', 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.social-log {
+  position: relative;
+  padding-top: 30px;
+  margin-top: 35px;
+}
+
+.social-log span {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #333;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.social-log::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 1px;
+  width: calc(100% + 60px);
+  left: -30px;
+  background-color: #F5F5F5;
+}
+
+.social-log ul li a {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: auto;
+    transform: translateY(-50%);
+}
+
+.social-log ul li {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 1px 5px 0px rgba(0,0,0,.3);
+  box-shadow: 0 1px 5px 0px rgba(0,0,0,.3);
+  display: inline-block;
+  background-color: #4E76A3;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 34px;
+}
+
+.social-log ul li:first-child {
+  background-color: #4E76A3;  
+  margin-right: 20px;
+}
+
+.social-log ul li:last-child {
+  background-color: #3B5998;  
+}
+
+
+
+@media screen and (max-width: 769px) { 
+  .auth-wrapper {
+    width: 100%;
+    max-width: 485px;
+  }
+  #auth-tabs-header-wrapper,
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    width: 100%;
+  }
+  .addui-input-container input {
+    width: 100% !important;
+  }
+  div.addui-input-container input.addui-input-input, div.addui-input-container input.addui-input-input:focus {
+    padding-left: 15px !important;
+  }
+  div.addui-input-container div.addui-input-placeholder {
+    font-size: 15px !important;
+  }
 }

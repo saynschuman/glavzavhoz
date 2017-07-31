@@ -850,6 +850,7 @@
 {/if}
 {/strip}
 
+<link rel="stylesheet" href="/themes/pf_golmart/css/addInput.css">
 
 <div class="auth-wrapper">
 	<div class="auth-block">
@@ -867,15 +868,27 @@
 		<!-- Tab panels -->
 		<div class="tab-content">
 		    <!--Panel 1-->
-		    <div class="tab-pane fade in active" id="panel5" role="tabpanel">
-		       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eius iure dolorum quos nihil ullam voluptatibus nam ipsam vitae ea excepturi rem quisquam fugiat doloremque, maxime accusantium ad id in hic officia, delectus modi molestiae dignissimos neque. Voluptatibus laboriosam repellat doloremque accusantium dolorum dolor nisi sit magnam quo officiis fugit cupiditate similique eaque blanditiis, perspiciatis odio dolores quas ducimus. Quas error, incidunt asperiores tenetur earum, est repudiandae eos consequatur modi nesciunt doloremque cumque placeat voluptas consectetur atque iusto ut illo autem maiores quam, optio doloribus omnis. Nulla nobis, aliquam, dolorem incidunt quidem voluptate ex ea nam blanditiis numquam minus tempore?
-		    </div>
+		    <form class="tab-pane fade in active" id="panel5" role="tabpanel">
+			    <input data-addui='input' id='myInput' name='myInput' value='' type='email' placeholder='Ваша почта'/>
+				<input data-addui='input' id='passw' name='email' value='' type='password' placeholder='Ваш пароль'/>
+				<input type="submit" value="Войти">
+		    </form>
 		    <!--/.Panel 1-->
 		    <!--Panel 2-->
-		    <div class="tab-pane fade" id="panel6" role="tabpanel">
-		        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quam dicta adipisci quibusdam perspiciatis debitis odio, autem ratione blanditiis quidem tempore magni harum, nam unde! Voluptatibus, cupiditate saepe iste officiis quidem, labore vel, optio quas perferendis similique sed. Optio vitae dolorum aut eveniet cupiditate, deleniti reprehenderit voluptatum eaque asperiores ratione quam rerum, ea non earum tempore. Odio minus nam omnis harum repellendus earum qui repudiandae temporibus impedit consequuntur quidem eius numquam magni quaerat, nisi, officia, eaque. Fugit, natus perspiciatis animi. Non animi vel quam nemo modi maiores sint! Libero consequuntur rem cupiditate accusantium odio laborum praesentium reprehenderit nulla quam optio!
-		    </div>
+		    <form class="tab-pane fade" id="panel6" role="tabpanel">
+		        <input data-addui='input' id='email-reg' name='email-reg' value='' type='email' placeholder='Адрес электронной почты'/>
+		        <input type="submit" value="Войти">
+		    </form>
 		    <!--/.Panel 2-->
+		    <div class="social-log">
+		    	<span>Войти через социальную сеть</span>
+		    	<ul>
+		    		<li><a href=""><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+		    		<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		    	</ul>
+		    </div>
 		</div>
 	</div>
 </div>
+
+<script src="/themes/pf_golmart/js/addInput.js"></script>
